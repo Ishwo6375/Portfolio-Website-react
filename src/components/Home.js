@@ -1,11 +1,13 @@
 import React from 'react'
+import "./styles/Home.css";
+import image from './styles/ishwor.png'
 
 function Home() {
     return (
        <div class="container about">
         <div class="about-content">
           <div class="about-img flex">
-            <img src="images/ishwor.png" alt="profile-pic" />
+           <img src={image} alt="profile-pic" />
           </div>
           <h2>Hello, I'm Ishwor Prajapati</h2>
           <h3>Fullstack Webdeveloper | Learner</h3>
