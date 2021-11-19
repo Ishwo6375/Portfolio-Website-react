@@ -74,7 +74,7 @@ function NavBar() {
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-              -
+        
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           
           </div>
