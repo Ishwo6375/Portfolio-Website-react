@@ -5,7 +5,7 @@ import "./styles/About.css";
 function About() {
   return (
     <div className="about-intro" id="about">
-      <h1 className="heading">
+      <h1 className="heading-1">
         About <span>Me</span>
       </h1>
       <div className="row">
