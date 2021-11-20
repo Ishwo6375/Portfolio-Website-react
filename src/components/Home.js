@@ -25,23 +25,23 @@ function Home() {
       <div className="social-icons">
         <ul>
           <li>
-            <a href="#">
-              <i class="fa-brands fa-github"></i>
+            <a href="https://www.github.com/Ishwo6375" target="_blank">
+              <i className="fa-brands fa-github"></i>
             </a>
           </li>
           <li>
-            <a href="#">
-              <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/ishwor-prajapati-b4a102201" target="_blank">
+              <i className="fa-brands fa-linkedin"></i>
             </a>
           </li>
           <li>
-            <a href="#">
-              <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:ishaan.prazapati6375@gmail.com" target="_blank">
+              <i className="fa-solid fa-envelope"></i>
             </a>
           </li>
           <li>
-            <a href="#">
-              <i class="fa-brands fa-youtube"></i>
+            <a href="https://www.youtube.com" target="_blank">
+              <i className="fa-brands fa-youtube"></i>
             </a>
           </li>
         </ul>
