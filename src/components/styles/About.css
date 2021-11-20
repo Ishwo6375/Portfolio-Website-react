@@ -1,7 +1,7 @@
 .heading-1 {
   text-align: center;
   padding-bottom: 2rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   color: white;
 }
@@ -39,7 +39,7 @@
 
 .about-intro .row .content h3{
 color: white;
-font-size: 4rem;
+font-size: 2.8rem;
 margin: 30px;
 }
 
@@ -50,7 +50,7 @@ margin: 30px;
 
 .about-intro .row .content .info{
     color: white;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     padding: 1rem 0;
     line-height:2 ;
     margin: 30px;
@@ -76,6 +76,9 @@ margin: 30px;
 .about-intro .row .content .box-container .box p span{
     color: yellow;
 }
+.info span{
+    color: yellow;
+}
 
 
 
@@ -94,6 +97,14 @@ margin: 30px;
      
   }
   .box{
+      font-size: 1.5rem;
+  }
+
+  .box-container{
+      margin-top: -80px;
+  }
+
+  .about-intro .row .content .info{
       font-size: 1.8rem;
   }
 }

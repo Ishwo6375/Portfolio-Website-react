@@ -17,8 +17,9 @@ function About() {
             Hello!! My name is <span>Ishwor Prajapati</span>
           </h3>
           <p className="info">
-            "Don't count the days, make the days count." - Muhammad Ali
+            <span>"Don't count the days, make the days count." - Muhammad Ali</span>
             <br />
+             <br />
             Heloo! I'm Ishwor Prajapti, Fullstack webdeveloper based on
             Baltimore, USA. I'm very passionate and dedicated to my work.I love
             spending time on fixing little details and optimizing web apps. Also
