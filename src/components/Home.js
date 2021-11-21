@@ -1,9 +1,11 @@
 import React from "react";
 import "./styles/Home.css";
-import image from "./styles/ishwor.png";
+import image from "./styles/bg.jpg";
+
 
 function Home() {
   return (
+    <>
     <div className="container about">
       <div className="about-content">
         <div className="about-img flex">
@@ -25,6 +27,7 @@ function Home() {
       <div className="social-icons">
         <ul>
           <li>
+             
             <a href="https://www.github.com/Ishwo6375" target="_blank">
               <i className="fa-brands fa-github"></i>
             </a>
@@ -47,6 +50,8 @@ function Home() {
         </ul>
       </div>
     </div>
+    
+      </>
   );
 }
 

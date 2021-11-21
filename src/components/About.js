@@ -4,20 +4,21 @@ import "./styles/About.css";
 
 function About() {
   return (
+      <div className="main-about">
     <div className="about-intro" id="about">
       <h1 className="heading-1">
         About <span>Me</span>
       </h1>
       <div className="row">
         <div className="image">
-          <img src={about} alt="about-section-img" />
+          <img className="tilt" src={about} alt="about-section-img" />
         </div>
         <div className="content">
           <h3>
             Hello!! My name is <span>Ishwor Prajapati</span>
           </h3>
           <p className="info">
-            <span>"Don't count the days, make the days count." - Muhammad Ali</span>
+            <span>"Don't count the days, make the days count." -</span> <span className="span-1">Muhammad Ali</span>
             <br />
              <br />
             Heloo! I'm Ishwor Prajapti, Fullstack webdeveloper based on
@@ -28,8 +29,8 @@ function About() {
             <br />
             Currently looking for an entry level position.I can't wait to find a
             company where I can make my contribution. Feel free to message me or
-            email me at ishaan.prazapati6375@gmail.com. I'm always happy to
-            talk! :) Thank you Happy coding :)
+            email me at <a href="mailto:ishaan.prazapati6375@gmail.com">ishaan.prazapati6375@gmail.com</a>. I'm always happy to
+            talk! :) 
           </p>
           <div className="box-container">
             <div className="box">
@@ -40,10 +41,10 @@ function About() {
                 <span>Gender: </span>Male
               </p>
               <p>
-                <span>Experience </span>Entry Level{" "}
+                <span>Experience: </span>Entry Level{" "}
               </p>
               <p>
-                <span>Freelance </span>available
+                <span>Freelance: </span>available
               </p>
             </div>
 
@@ -55,13 +56,14 @@ function About() {
                 <span>Email: </span>ishaan.prazapti6375@gmail.com
               </p>
               <p>
-                <span>Address </span>Baltimore, USA
+                <span>Address: </span> Baltimore, USA
               </p>
+          <button className="download-btn btn-primary">Download Resume</button>
             </div>
           </div>
-          <a href="#" className="btn">Download Resume</a>
         </div>
       </div>
+    </div>
     </div>
   );
 }
