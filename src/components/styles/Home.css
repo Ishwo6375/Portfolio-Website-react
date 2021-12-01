@@ -201,6 +201,7 @@ blockquote span {
  @media screen and (max-width: 375px) {
     .header {
       padding-bottom: 30px;
+     
     }
     .social-icons {
       display: flex;
@@ -215,6 +216,7 @@ blockquote span {
     }
     h2 {
       font-size: 30px !important;
+    
     }
     h3 {
       font-size: 20px !important;

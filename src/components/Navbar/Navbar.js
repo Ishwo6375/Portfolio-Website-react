@@ -11,8 +11,8 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-          portfolio 
-            <i className="fas fa-code"></i>
+         
+            <i className="fas fa-code"> IP</i>
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -69,7 +69,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+                Let's Talk
               </NavLink>
             </li>
           </ul>

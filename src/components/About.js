@@ -31,7 +31,7 @@ function About() {
             Currently looking for an entry level position.I will love to hear from you. Whether it's a project, job oppurtunity
              or just a chat.  Feel free to message me or
             email me at <a href="mailto:ishaan.prazapati6375@gmail.com">ishaan.prazapati6375@gmail.com</a>. I'm always happy to
-            talk! :) 
+            talk!!
           </p>
           <div className="box-container">
             <div className="box">
