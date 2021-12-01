@@ -6,6 +6,7 @@ import image from "./styles/bg.jpg";
 function Home() {
   return (
     <>
+    <div className="home-main">
     <div className="container about">
       <div className="about-content">
         <div className="about-img flex">
@@ -25,6 +26,7 @@ function Home() {
       </div>
 
       <div className="social-icons">
+        <h4 className="social-link">Feel free to join me on</h4> 
         <ul>
           <li>
              
@@ -49,6 +51,7 @@ function Home() {
           </li>
         </ul>
       </div>
+    </div>
     </div>
     
       </>

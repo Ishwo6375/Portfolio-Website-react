@@ -7,7 +7,7 @@ function About() {
       <div className="main-about">
     <div className="about-intro" id="about">
       <h1 className="heading-1">
-        About <span>Me</span>
+      
       </h1>
       <div className="row">
         <div className="image">
@@ -15,27 +15,28 @@ function About() {
         </div>
         <div className="content">
           <h3>
-            Hello!! My name is <span>Ishwor Prajapati</span>
+            Get to know More <span>About Me</span>
           </h3>
           <p className="info">
             <span>"Don't count the days, make the days count." -</span> <span className="span-1">Muhammad Ali</span>
             <br />
-             <br />
-            Heloo! I'm Ishwor Prajapti, Fullstack webdeveloper based on
+            <br />
+            I'm a passionate fullstack webdeveloper based on
             Baltimore, USA. I'm very passionate and dedicated to my work.I love
             spending time on fixing little details and optimizing web apps. Also
             I like working in a team. As the saying goes: "Two heads are better
             than one".
             <br />
-            Currently looking for an entry level position.I can't wait to find a
-            company where I can make my contribution. Feel free to message me or
+            <br />
+            Currently looking for an entry level position.I will love to hear from you. Whether it's a project, job oppurtunity
+             or just a chat.  Feel free to message me or
             email me at <a href="mailto:ishaan.prazapati6375@gmail.com">ishaan.prazapati6375@gmail.com</a>. I'm always happy to
             talk! :) 
           </p>
           <div className="box-container">
             <div className="box">
               <p>
-                <span>age: </span>28
+                <span>Age: </span>28
               </p>
               <p>
                 <span>Gender: </span>Male
@@ -56,7 +57,7 @@ function About() {
                 <span>Email: </span>ishaan.prazapti6375@gmail.com
               </p>
               <p>
-                <span>Address: </span> Baltimore, USA
+                <span>Address: </span>Nottingham, Baltimore, USA
               </p>
           <button className="download-btn btn-primary">Download Resume</button>
             </div>

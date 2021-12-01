@@ -20,9 +20,15 @@ font-family: 'Roboto', sans-serif; */
   font-family: Oswald, sans-serif;
 }
 
+.home-main{
+   background-color: black;
+  
+}
+
 body {
   line-height: 1.6;
-  background: rgb(0, 0, 0);
+  background-color: black;
+ 
 }
 
 img {
@@ -60,6 +66,12 @@ p {
   width: 90vw;
   margin: 0 auto;
   
+}
+
+.social-link{
+  color: rgb(196, 238, 11);
+  font-size: 20px;
+ text-align: center;
 }
 
 .active {
@@ -161,9 +173,11 @@ blockquote span {
   @media screen and (max-width: 500px) {
     .header {
       padding-bottom: 30px;
+      
     }
     .social-icons {
-      display: none;
+      display: flex;
+      flex-direction: column;
     }
     .about-content h3 {
       width: 100%;
@@ -183,3 +197,30 @@ blockquote span {
     }
   }
 }
+
+ @media screen and (max-width: 375px) {
+    .header {
+      padding-bottom: 30px;
+    }
+    .social-icons {
+      display: flex;
+      flex-direction: column;
+    }
+    .about-content h3 {
+      width: 100%;
+    }
+    .about-content blockquote {
+      font-size: 16px;
+      width: 100%;
+    }
+    h2 {
+      font-size: 30px !important;
+    }
+    h3 {
+      font-size: 20px !important;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+

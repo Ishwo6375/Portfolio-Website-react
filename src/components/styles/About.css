@@ -5,9 +5,8 @@
   font-family: Oswald, sans-serif;
 }
 
-
-.main-about{
-    background: linear-gradient(rgba(14, 15, 15, 0.5), rgba(0, 0, 0, 0.9)),
+.main-about {
+  background: linear-gradient(rgba(14, 15, 15, 0.5), rgba(0, 0, 0, 0.9)),
     url("https://images.unsplash.com/photo-1500576992153-0271099def59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
   background-size: cover;
   background-position: center;
@@ -17,32 +16,31 @@
   text-align: center;
   padding-bottom: 1rem;
   font-size: 2.1rem;
-  
+
   text-transform: uppercase;
 
   color: white;
 }
 
-.download-btn{
-    padding: 10px;
-    font-size: 1.1rem;
-   background-color: yellow;
-    color: rgb(22, 20, 20);
-    border-radius: 1rem;
-    
+.download-btn {
+  padding: 10px;
+  font-size: 1.1rem;
+  background-color: yellow;
+  color: rgb(22, 20, 20);
+  border-radius: 1rem;
 }
-.download-btn:hover{
-    color: rgb(179, 247, 8);
-    background-color: rgb(75, 64, 224);
+.download-btn:hover {
+  color: rgb(179, 247, 8);
+  background-color: rgb(75, 64, 224);
 }
 
 .heading-1 span {
   text-transform: uppercase;
   color: rgb(207, 241, 12);
 }
-.about-intro .row{
+.about-intro .row {
   display: flex;
-  
+
   flex-wrap: wrap;
   gap: 1.5rem;
   align-items: center;
@@ -54,10 +52,8 @@
   font-size: 2rem;
 }
 
-
-
 .about-intro .row .image img {
-    margin-left: 90px;
+  margin-left: 90px;
   width: 30rem;
   text-align: center;
   border-radius: 0.5rem;
@@ -65,89 +61,110 @@
   box-shadow: 0 0.5 1rem rgba(0, 0, 0, 0.1);
 }
 
-.about-intro .row .content{
-    flex: 1 1 55rem;
+.about-intro .row .content {
+  flex: 1 1 55rem;
 }
 
-.about-intro .row .content h3{
-color: white;
-font-size: 2.8rem;
-margin: 30px;
+.about-intro .row .content h3 {
+  color: white;
+  font-size: 2.8rem;
+  margin: 30px;
 }
 
-.about-intro .row .content h3 span{
-    color: yellow;
-    
+.about-intro .row .content h3 span {
+  color: yellow;
 }
 
-.about-intro .row .content .info{
-    color: white;
-    font-size: 1.2rem;
-    padding: 1rem 0;
-    line-height:2 ;
-    margin: 30px;
-
+.about-intro .row .content .info {
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  line-height: 2;
+  margin: 30px;
 }
 
-.about-intro .row .content .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    padding: 1rem 0;
+.about-intro .row .content .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1rem 0;
 }
 
-
-
-.about-intro .row .content .box-container .box{
-    flex: 1 1 20rem;
-    color: whitesmoke;
-    padding: 5rem 0;
-    line-height: 2;
-    margin: 10px;
-
+.about-intro .row .content .box-container .box {
+  flex: 1 1 20rem;
+  color: whitesmoke;
+  padding: 5rem 0;
+  line-height: 2;
+  margin: 10px;
 }
 
-.about-intro .row .content .box-container .box p span{
-    color: yellow;
+.about-intro .row .content .box-container .box p span {
+  color: yellow;
 }
-.info span{
-    color: yellow;
-}
-
-.box-container{
-    margin-top: -90px;
+.info span {
+  color: yellow;
 }
 
+.box-container {
+  margin-top: -90px;
+}
 
-
-
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   html {
     font-size: 50%;
   }
   .heading-1 {
     font-size: 4rem;
   }
-  .info{
-      font-size: 2rem;
+  .info {
+    font-size: 2rem;
   }
-  .box p span{
-      font-size: 1.8rem;
-     
+  .box p span {
+    font-size: 1.8rem;
   }
-  .box{
-      font-size: 1.5rem;
-  }
-
-  .box-container{
-      margin-top: -80px;
+  .box {
+    font-size: 1.5rem;
   }
 
-  .about-intro .row .content .info{
-      font-size: 1.8rem;
+  .box-container {
+    margin-top: -80px;
   }
 
-  .download-btn{
-      font-size: 1.8rem;
+  .about-intro .row .content .info {
+    font-size: 1.8rem;
+  }
+
+  .download-btn {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 50%;
+  }
+  .heading-1 {
+    font-size: 4rem;
+  }
+  .info {
+    font-size: 2.2rem;
+  }
+  .box p span {
+    font-size: 1.8rem;
+  }
+  .box {
+    font-size: 1.2rem;
+  }
+
+  .box-container {
+    margin-top: -60px;
+  }
+
+  .about-intro .row .content .info {
+    font-size: 1.8rem;
+  }
+
+  .download-btn {
+    font-size: 1.8rem;
   }
 }
